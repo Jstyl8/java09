@@ -1,0 +1,76 @@
+<com.mp.practica8.ejercicio4.Residencia>
+  <nombre>Las Acacias</nombre>
+  <cuidadores>
+    <com.mp.practica8.ejercicio4.Cuidador>
+      <nombre>Martinez Martinez, Juan</nombre>
+      <DNI>27272727</DNI>
+    </com.mp.practica8.ejercicio4.Cuidador>
+    <com.mp.practica8.ejercicio4.Cuidador>
+      <nombre>Lopez Segura, Ana</nombre>
+      <DNI>26262628</DNI>
+    </com.mp.practica8.ejercicio4.Cuidador>
+    <com.mp.practica8.ejercicio4.Cuidador>
+      <nombre>Marquez Lopez, Anabel</nombre>
+      <DNI>26262629</DNI>
+    </com.mp.practica8.ejercicio4.Cuidador>
+  </cuidadores>
+  <habitaciones>
+    <com.mp.practica8.ejercicio4.Habitacion>
+      <numero>101</numero>
+    </com.mp.practica8.ejercicio4.Habitacion>
+    <com.mp.practica8.ejercicio4.Habitacion>
+      <numero>102</numero>
+    </com.mp.practica8.ejercicio4.Habitacion>
+    <com.mp.practica8.ejercicio4.Habitacion>
+      <numero>103</numero>
+    </com.mp.practica8.ejercicio4.Habitacion>
+    <com.mp.practica8.ejercicio4.Habitacion>
+      <numero>201</numero>
+    </com.mp.practica8.ejercicio4.Habitacion>
+    <com.mp.practica8.ejercicio4.Habitacion>
+      <numero>202</numero>
+    </com.mp.practica8.ejercicio4.Habitacion>
+  </habitaciones>
+  <residentes>
+    <capacidadInicial>10</capacidadInicial>
+    <array>
+      <com.mp.practica8.ejercicio4.Residente>
+        <nombre>Martinez Gomez, Adrian</nombre>
+        <DNI>27272727</DNI>
+        <sexo>V</sexo>
+        <fechaNacimiento>1940-02-12 00:00:00.0 CET</fechaNacimiento>
+      </com.mp.practica8.ejercicio4.Residente>
+      <com.mp.practica8.ejercicio4.Residente>
+        <nombre>Lopez Lopez, Luisa</nombre>
+        <DNI>27272728</DNI>
+        <sexo>M</sexo>
+        <fechaNacimiento>1940-03-12 00:00:00.0 CEST</fechaNacimiento>
+      </com.mp.practica8.ejercicio4.Residente>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+    </array>
+    <tamaño>2</tamaño>
+  </residentes>
+  <reservas>
+    <com.mp.practica8.ejercicio4.Reserva>
+      <fechaEntrada>2007-01-12 00:00:00.0 CET</fechaEntrada>
+      <fechaSalida>2007-06-12 00:00:00.0 CEST</fechaSalida>
+      <numeroReserva>1</numeroReserva>
+      <residente reference="../../../residentes/array/com.mp.practica8.ejercicio4.Residente"/>
+      <habitacion reference="../../../habitaciones/com.mp.practica8.ejercicio4.Habitacion"/>
+    </com.mp.practica8.ejercicio4.Reserva>
+    <com.mp.practica8.ejercicio4.Reserva>
+      <fechaEntrada>2007-02-12 00:00:00.0 CET</fechaEntrada>
+      <fechaSalida>2007-06-12 00:00:00.0 CEST</fechaSalida>
+      <numeroReserva>2</numeroReserva>
+      <residente reference="../../../residentes/array/com.mp.practica8.ejercicio4.Residente[2]"/>
+      <habitacion reference="../../../habitaciones/com.mp.practica8.ejercicio4.Habitacion[2]"/>
+    </com.mp.practica8.ejercicio4.Reserva>
+  </reservas>
+</com.mp.practica8.ejercicio4.Residencia>

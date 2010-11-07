@@ -1,0 +1,13 @@
+DNI            Nombre                  Teoría      Prácticas     Final      Nota Acta
+-------------------------------------------------------------------------------------
+54886796       Juan Lopez Garcia          2.8            5.6      3,78       Suspenso
+74658923       Luis Cabrera Gomez         5.4            6.8      5,89       Aprobado
+56231589       Jose Ruiz Ruiz             8.2            9.0      8,48  Sobresaliente
+
+Suspensos:                 1
+Aprobados:                 1
+Notables:                  0
+Sobresalientes:            1
+
+Número Alumnos:            3
+Nota Media:             6,05
