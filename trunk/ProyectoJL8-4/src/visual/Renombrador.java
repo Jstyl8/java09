@@ -15,12 +15,13 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 
 /**
  * Clase visual para la utilidadrenombre
  * 
  * @author Jose Angel Garcia Fernandez
- * @version 1.0 28/12/2009
+ * @version 1.1 25/03/2013 - 1.0 28/12/2009
  */
 public class Renombrador extends JFrame {
 
@@ -52,6 +53,7 @@ public class Renombrador extends JFrame {
 	 * @return void
 	 */
 	private void initialize() {
+		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		this.setSize(245, 120);
 		this.setContentPane(getJContentPane());
 		this.setTitle("Renombrador");
@@ -189,4 +191,5 @@ public class Renombrador extends JFrame {
 		}
 		return jBdir;
 	}
+
 } // @jve:decl-index=0:visual-constraint="10,10"
